@@ -39,7 +39,7 @@ top: 0px;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 32px 0px;
+margin: 0px 0px;
 
 }
 
@@ -84,6 +84,8 @@ color: black;
     text-decoration: solid;
 }
 
+
+
 header {
 background-color: #DBF0F1;;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
@@ -126,9 +128,78 @@ left: 247.88px;
 top: 209.16px;
 }
 
-#Android {
+#Android { 
+
+    /* Auto Layout */
+
+display: inline;
+flex-direction: row;
+align-items: flex-sart;
+
+position: static;
+width: 100px;
+height: 26px;
+left: 8px;
+top: 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+justify-content: space-between;
+}
+
+
+#buttons {
+    /* Auto Layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px 8px;
+
+position: static;
+width: 112.25px;
+height: 62px;
+left: 0px;
+top: 282px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 16.5px 0px;
 
 }
-#iphone {
 
+#iphone {
+    /* Auto Layout */
+
+display: inline;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px 0px 0px 0px;
+
+position: static;
+width: 100px;
+height: 26px;
+left: 8px;
+top: 0px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+justify-content: space-between;
+
+}
+
+a.icon {
+    color: darkorange;
 }
